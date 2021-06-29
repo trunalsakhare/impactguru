@@ -1,0 +1,157 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>maxRVU-Website</groupId>
+  <artifactId>maxRVU-Website</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>maxRVU-Website</name>
+
+  
+  <dependencies>			  		
+       <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+<dependency>
+	    <groupId>org.seleniumhq.selenium</groupId>
+	    <artifactId>selenium-java</artifactId>
+	    <version>3.141.59</version>
+	</dependency>
+<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-java -->
+<dependency>
+    <groupId>info.cukes</groupId>
+    <artifactId>cucumber-java</artifactId>
+    <version>1.2.6</version>
+    <type>pom</type>
+</dependency>
+
+	<dependency>
+    <groupId>info.cukes</groupId>
+    <artifactId>cucumber-junit</artifactId>
+    <version>1.2.5</version>
+</dependency>
+
+	<dependency>
+    <groupId>info.cukes</groupId>
+    <artifactId>cucumber-jvm-deps</artifactId>
+    <version>1.0.5</version>
+    <scope>provided</scope>
+</dependency>
+
+<dependency>
+    <groupId>net.masterthought</groupId>
+    <artifactId>cucumber-reporting</artifactId>
+    <version>5.0.2</version>
+</dependency>
+
+<dependency>
+    <groupId>info.cukes</groupId>
+    <artifactId>gherkin</artifactId>
+    <version>2.12.2</version>
+    <scope>provided</scope>
+</dependency>
+
+
+<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+<dependency>
+    <groupId>io.github.bonigarcia</groupId>
+    <artifactId>webdrivermanager</artifactId>
+    <version>3.7.1</version>
+</dependency>
+		<dependency>
+    <groupId>xml-apis</groupId>
+    <artifactId>xml-apis</artifactId>
+    <version>1.4.01</version>
+</dependency>			
+        <dependency>
+        <groupId>org.testng</groupId>
+        <artifactId>testng</artifactId>
+        <version>6.9.13.5</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+<dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>3.0.0</version>
+</dependency>
+   
+<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+<dependency>
+<groupId>commons-io</groupId>
+<artifactId>commons-io</artifactId>
+<version>2.6</version>
+</dependency>
+      <dependency>
+	<groupId>com.google.guava</groupId>
+	<artifactId>guava</artifactId>
+	<version>23.0</version>
+</dependency>
+
+
+<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+<dependency>
+<groupId>org.apache.poi</groupId>
+<artifactId>poi</artifactId>
+<version>4.1.1</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+<dependency>
+<groupId>org.apache.poi</groupId>
+<artifactId>poi-ooxml</artifactId>
+<version>4.1.1</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+<dependency>
+<groupId>commons-io</groupId>
+<artifactId>commons-io</artifactId>
+<version>2.6</version>
+</dependency>
+
+<dependency>
+<groupId>org.apache.poi</groupId>
+<artifactId>poi-ooxml-schemas</artifactId>
+<version>4.1.1</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/javax.mail/javax.mail-api -->
+<dependency>
+    <groupId>javax.mail</groupId>
+    <artifactId>javax.mail-api</artifactId>
+    <version>1.6.2</version>
+</dependency>
+
+<dependency>
+    <groupId>com.sun.mail</groupId>
+    <artifactId>javax.mail</artifactId>
+    <version>1.6.0</version>
+</dependency>
+
+
+<dependency>
+<groupId>org.apache.poi</groupId>
+<artifactId>poi-scratchpad</artifactId>
+<version>4.1.1</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-firefox-driver -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-firefox-driver</artifactId>
+    <version>4.0.0-alpha-4</version>
+</dependency>
+
+<dependency>
+<groupId>org.apache.poi</groupId>
+<artifactId>openxml4j</artifactId>
+<version>1.0-beta</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/com.relevantcodes/extentreports -->
+<dependency>
+    <groupId>com.relevantcodes</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>2.40.2</version>
+</dependency>
+<dependency>
+    <groupId>org.freemarker</groupId>
+    <artifactId>freemarker</artifactId>
+    <version>2.3.23</version>
+</dependency>
+</dependencies>
+</project>
